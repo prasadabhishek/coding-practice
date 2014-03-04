@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6933fb65-c865-4269-ad39-b38365553e65</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Yodle\triangle.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Project</Name>
+    <RootNamespace>Project</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="0_1_knapsack.py" />
+    <Compile Include="3sum.py" />
+    <Compile Include="Amazon\find_R_in_R_sorted_array.py" />
+    <Compile Include="Amazon\MaxOverlappingInterval.py" />
+    <Compile Include="Amazon\MaxPath.py" />
+    <Compile Include="Amazon\Parantheses.py" />
+    <Compile Include="Amazon\Sum_Diff.py" />
+    <Compile Include="Amazon\Vowel_in_List.py" />
+    <Compile Include="Arrays_Strings\1.2.py" />
+    <Compile Include="BinarySearch.py" />
+    <Compile Include="CodeEval\Easy\Bit Positions.py" />
+    <Compile Include="CodeEval\Easy\FizzBuzz.py" />
+    <Compile Include="CodeEval\Easy\Multiples.py" />
+    <Compile Include="CodeEval\Easy\nthFibbonacci.py" />
+    <Compile Include="CodeEval\Easy\PrimePalindrome.py" />
+    <Compile Include="CodeEval\Easy\ReverseStringByWords.py" />
+    <Compile Include="CodeEval\Easy\SumofDigits.py" />
+    <Compile Include="CodeEval\Easy\SumofPrimes.py" />
+    <Compile Include="CodeEval\Easy\toLowerCase.py" />
+    <Compile Include="LinkedList.py" />
+    <Compile Include="CoinCombination.py" />
+    <Compile Include="CompactSpaces.py" />
+    <Compile Include="Fibonacci.py" />
+    <Compile Include="find_numbers_not_in_range.py" />
+    <Compile Include="heapsort.py" />
+    <Compile Include="IncreasingTriplet.py" />
+    <Compile Include="Kadane.py" />
+    <Compile Include="Find2RepeatingNumbers.py" />
+    <Compile Include="InsertionSort.py" />
+    <Compile Include="Arrays_Strings\1.1.py" />
+    <Compile Include="leetCode\Candy.py" />
+    <Compile Include="leetCode\GasStation.py" />
+    <Compile Include="leetCode\word_break_2.py" />
+    <Compile Include="MatrixIslands.py" />
+    <Compile Include="Max_Points_on_a_Line.py" />
+    <Compile Include="Merge2SortedArrayinPlace.py" />
+    <Compile Include="MergeSort.py" />
+    <Compile Include="Moderate\17.1.py" />
+    <Compile Include="Moderate\17.10.py" />
+    <Compile Include="Moderate\17.2.py" />
+    <Compile Include="Moderate\17.3.py" />
+    <Compile Include="Moderate\17.5.py" />
+    <Compile Include="Moderate\17.6.py" />
+    <Compile Include="Moderate\17.8.py" />
+    <Compile Include="nearest_palindrome.py" />
+    <Compile Include="Quora Challenge\Nearby.py" />
+    <Compile Include="Quora Challenge\NearbyFileRead.py" />
+    <Compile Include="Radix Sort.py" />
+    <Compile Include="Recursion_DynamicProgramming\17.9.py" />
+    <Compile Include="NonRepeatCharacter.py" />
+    <Compile Include="NonRepeatingElementInArray.py" />
+    <Compile Include="ParlorPuzzle.py" />
+    <Compile Include="paths_in_matrix.py" />
+    <Compile Include="QuickSort.py" />
+    <Compile Include="Recursion_DynamicProgramming\9.1.py" />
+    <Compile Include="remove_repeating_char.py" />
+    <Compile Include="ReverseStringWordbyWord.py" />
+    <Compile Include="reverse_polish_notation.py" />
+    <Compile Include="SelectionSort.py" />
+    <Compile Include="ShellSort.py" />
+    <Compile Include="strstr.py" />
+    <Compile Include="US_Coins.py" />
+    <Compile Include="Yodle\triangle.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Arrays_Strings\" />
+    <Folder Include="CodeEval\Easy\" />
+    <Folder Include="CodeEval\NewFolder1\" />
+    <Folder Include="Moderate\" />
+    <Folder Include="leetCode\" />
+    <Folder Include="Amazon\" />
+    <Folder Include="CodeEval\" />
+    <Folder Include="Yodle\" />
+    <Folder Include="Quora Challenge\" />
+    <Folder Include="Recursion_DynamicProgramming\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CodeEval\Easy\test.txt" />
+    <Content Include="Quora Challenge\coord.txt" />
+    <Content Include="Yodle\triangle.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
