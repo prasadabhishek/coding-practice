@@ -4,6 +4,7 @@ import time
 class location:
      def __init__(self):
          self.topic_number=0
+         self.questions=[]
          self.x=0
          self.y=0
      def setLocation(self,x,y,z):
@@ -16,6 +17,8 @@ class location:
          return float(self.x)
      def getY(self):
          return float(self.y)
+     def addQuestion(self,x):
+         self.questions.append(x)
 
 class qt_details:
      def __init__(self):
@@ -48,8 +51,7 @@ with open("C://Users//Abhishek//Documents//Visual Studio 2013//Projects//Project
         topic_details=[]
         for i in range(0,int(qtNumbers[0])):
             line = f.readline()
-            line = line.rstrip('\n')
-            co_ordinates=line.split(" ")
+            co_ordinates = line.rstrip('\n').split(" ")
             co=location()
             co.setLocation(co_ordinates[0],float(co_ordinates[1]),float(co_ordinates[2]))
             topic_details.append(co)
@@ -57,8 +59,7 @@ with open("C://Users//Abhishek//Documents//Visual Studio 2013//Projects//Project
         qt_list=[]
         for i in range(0,int(qtNumbers[1])):
             line = f.readline()
-            line = line.rstrip('\n')
-            topics=line.split(" ")
+            topics = line.rstrip('\n').split(" ")
             qt=qt_details()
             qt.setNumber(topics[0])
             qt.setCount(topics[1])

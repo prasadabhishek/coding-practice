@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6933fb65-c865-4269-ad39-b38365553e65</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Yodle\triangle.py</StartupFile>
+    <StartupFile>Amazon\3sum.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,14 @@
   <ItemGroup>
     <Compile Include="0_1_knapsack.py" />
     <Compile Include="3sum.py" />
+    <Compile Include="Amazon\3sum.py" />
     <Compile Include="Amazon\find_R_in_R_sorted_array.py" />
+    <Compile Include="Amazon\Largest Multiple of 3.py" />
     <Compile Include="Amazon\MaxOverlappingInterval.py" />
     <Compile Include="Amazon\MaxPath.py" />
+    <Compile Include="Amazon\nonUnique Chars in a String.py" />
     <Compile Include="Amazon\Parantheses.py" />
+    <Compile Include="Amazon\rotateArray.py" />
     <Compile Include="Amazon\Sum_Diff.py" />
     <Compile Include="Amazon\Vowel_in_List.py" />
     <Compile Include="Arrays_Strings\1.2.py" />
@@ -41,6 +45,7 @@
     <Compile Include="CodeEval\Easy\SumofDigits.py" />
     <Compile Include="CodeEval\Easy\SumofPrimes.py" />
     <Compile Include="CodeEval\Easy\toLowerCase.py" />
+    <Compile Include="EditDistance.py" />
     <Compile Include="LinkedList.py" />
     <Compile Include="CoinCombination.py" />
     <Compile Include="CompactSpaces.py" />
